@@ -122,6 +122,12 @@ The build includes:
 - Check that all dependencies are properly installed
 - Verify build command is `npm run build`
 
+#### MIME Type Errors (JavaScript Module Script Issues)
+If you encounter errors like "Expected a JavaScript module script but the server responded with a MIME type of 'text/html'":
+- The `vercel.json` configuration has been updated to fix this issue
+- Ensure the latest code is deployed (includes proper asset routing)
+- If the issue persists, try redeploying the project
+
 #### Wallet Connection Issues
 - Verify WalletConnect Project ID is set
 - Check network configuration
